@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<title>Space Asteroids - A Draw16 Tech Demo</title>
+	</head>
+	<body>
+		<link rel="shortcut icon" type="image/x-icon" href="ressources/icon.png">
+
+		<script type="text/javascript" src="js/Draw16.js"></script>
+		<script type="text/javascript" src="js/rawbeep.min.js"></script>
+
+		<script type="text/javascript" src="js/helper.js"></script>
+		<script type="text/javascript" src="js/keyboard.js"></script>
+		
+		<script type="text/javascript" src="js/App.class.js"></script>
+		<script type="text/javascript" src="js/Asteroid.class.js"></script>
+		<script type="text/javascript" src="js/Ship.class.js"></script>
+		<script type="text/javascript" src="js/Particle.class.js"></script>
+		<script type="text/javascript" src="js/Laser.class.js"></script>
+		<script type="text/javascript" src="js/Highscore.class.js"></script>
+		<script>
+
+Draw16.fps = 60;
+Draw16.init(256, 240);
+Draw16.installFullscreen();
+
+document.body.style.backgroundColor = '#111111';
+
+Draw16.loadTextureAsync('font', 'ressources/font.png');
+Draw16.loadTextureAsync('logo', 'ressources/logo.png');
+
+var objectList = [];
+
+var app = new App();
+Draw16.onStep = function() {
+	app.triggerStep();
+}
+
+		</script>
+	</body>
+</html>
