@@ -11,7 +11,7 @@ A Draw16 and rawbeep.js tech-demo. See also:
 
 This is not a big game, just a small demo. Enjoy :-)
 
-PLAY ONLINE
+[PLAY ONLINE](https://philipp-schwarz.github.io/dist/asteroids/)
 
 ## Screenshots
 
