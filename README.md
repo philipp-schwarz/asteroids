@@ -58,4 +58,4 @@ This will generate a "start.html" file that embeds all PNG and JS files. Your ga
 
 How does it work?
 
-The index.html file is scanned for every Path in (") or (') that ends with ".js" or ".png". These files will be converted to base64 inline URLs. The filesize of your HTML-file will incerase, but in contains everything you need now. 
+The index.html file is scanned for every Path in (") or (') that ends with ".js" or ".png". These files will be converted to base64 inline URLs. The filesize of your HTML-file will incerase, but it contains everything you need now. 
